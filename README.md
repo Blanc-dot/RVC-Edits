@@ -15,7 +15,3 @@ If you just want the cleaner ui, you only need both RAVEN files, being RavenUI.p
 You're free to use this idea as you see fit, but I will be updating this to keep up to date with whatever prebuilt RVC binary exists, until I quit making models, just give Credit if you do use it and change stuff.
 
 However in doing so, anyone must be able to use the changes as well. Open Source should be open source and usable by all
-
-
-# To Do
-Update whenever official RVC updates. thats it WOOO
