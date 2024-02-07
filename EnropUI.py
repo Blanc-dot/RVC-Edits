@@ -631,9 +631,9 @@ def change_f0_method(f0method8):
         visible = False
     return {"visible": visible, "__type__": "update"}
 
-with gr.Blocks(title="♡ RavenCutie21") as app:
-    gr.Markdown("♡ Raven UI")
-    gr.Markdown(value=i18n("Guide Recommendations: (RavenCutie21's) https://rentry.co/TrainingVoiceModels + (Litsa_the_dancer's) https://rentry.org/RVC_making-models"))
+with gr.Blocks(title="♡ Enrop") as app:
+    gr.Markdown("♡ En UI")
+    gr.Markdown(value=i18n("Guide Recommendations: (Enrops's) https://rentry.co/TrainingVoiceModels + (Litsa_the_dancer's) https://rentry.org/RVC_making-models"))
     with gr.Tabs():
         with gr.TabItem(i18n("Train")):
             gr.Markdown(value=i18n(""))
@@ -755,7 +755,7 @@ with gr.Blocks(title="♡ RavenCutie21") as app:
                         maximum=10000,
                         step=1,
                         label=i18n("Total Epochs"),
-                        value=750,
+                        value=800,
                         interactive=True,
                     )
                     batch_size12 = gr.Slider(
