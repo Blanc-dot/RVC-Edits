@@ -7,13 +7,13 @@ if not exist "%~dp0\tensorboard_venv\" (
     echo Installing virtualenv...
 
     REM Install virtualenv
-    %~dp0\runtime\python -m pip install virtualenv
+    python -m pip install virtualenv
 
     REM Print the step to the terminal
     echo Creating a virtual environment named tensorboard_venv...
 
     REM Create a virtual environment named tensorboard_venv in the root directory
-    %~dp0\runtime\python -m virtualenv %~dp0\tensorboard_venv
+    python -m virtualenv %~dp0\tensorboard_venv
 
     REM Print the step to the terminal
     echo Activating the virtual environment...
